@@ -1,38 +1,131 @@
-.App {
+/* App.css */
+
+/* 全体のスタイル */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff; /* 空色 */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* タイトルのスタイル */
+h1 {
   text-align: center;
+  color: #007bb5; /* より濃い空色 */
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* クイズオプションセクションのスタイル */
+.quiz-options {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 30px;
+}
+
+.quiz-options label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #007bb5;
+}
+
+.quiz-options select,
+.quiz-options button {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #007bb5;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+}
+
+.quiz-options button {
+  background-color: #007bb5;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.quiz-options button:hover {
+  background-color: #005f99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* レスポンシブデザイン */
+@media (max-width: 600px) {
+  .quiz-options select,
+  .quiz-options button {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/* 結果発表画面のスタイル */
+.result-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.result-container h1 {
+  color: #007bb5; /* タイトルの色を空色に合わせる */
+}
+
+.result-container p {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.result-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bb5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.result-container button:hover {
+  background-color: #005f99;
+}
+
+/* クイズ画面のスタイル */
+.quiz-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.quiz-container h1 {
+  color: #007bb5; /* タイトルの色を空色に合わせる */
+}
+
+.quiz-container .hearts {
+  margin-bottom: 20px;
+}
+
+.quiz-container p {
+  font-size: 20px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.quiz-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bb5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-container button:hover {
+  background-color: #005f99;
 }

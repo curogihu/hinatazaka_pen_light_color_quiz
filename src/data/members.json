@@ -1,0 +1,184 @@
+{
+    "members": [
+      {
+        "name": "加藤 史帆",
+        "generation": "1期生",
+        "colors": ["レッド", "レッド"],
+        "isGraduation": false
+      },
+      {
+        "name": "佐々木 久美",
+        "generation": "1期生",
+        "colors": ["ブルー", "イエロー"],
+        "isGraduation": false
+      },
+      {
+        "name": "佐々木 美玲",
+        "generation": "1期生",
+        "colors": ["オレンジ", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "高瀬 愛奈",
+        "generation": "1期生",
+        "colors": ["ピンク", "ピンク"],
+        "isGraduation": false
+      },
+      {
+        "name": "東村 芽依",
+        "generation": "1期生",
+        "colors": ["ホワイト", "ホワイト"],
+        "isGraduation": false
+      },
+      {
+        "name": "金村 美玖",
+        "generation": "2期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": false
+      },
+      {
+        "name": "河田 陽菜",
+        "generation": "2期生",
+        "colors": ["オレンジ", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "丹生 明里",
+        "generation": "2期生",
+        "colors": ["イエロー", "イエロー"],
+        "isGraduation": false
+      },
+      {
+        "name": "濱岸 ひより",
+        "generation": "2期生",
+        "colors": ["オレンジ", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "上村 ひなの",
+        "generation": "3期生",
+        "colors": ["ピンク", "ライトグリーン"],
+        "isGraduation": false
+      },
+      {
+        "name": "髙橋 未来虹",
+        "generation": "3期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": false
+      },
+      {
+        "name": "森本 茉莉",
+        "generation": "3期生",
+        "colors": ["ホワイト", "ホワイト"],
+        "isGraduation": false
+      },
+      {
+        "name": "山口 陽世",
+        "generation": "3期生",
+        "colors": ["イエロー", "イエロー"],
+        "isGraduation": false
+      },
+      {
+        "name": "石塚 瑶季",
+        "generation": "4期生",
+        "colors": ["オレンジ", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "小西 夏菜実",
+        "generation": "4期生",
+        "colors": ["パープル", "パープル"],
+        "isGraduation": false
+      },
+      {
+        "name": "平岡 海月",
+        "generation": "4期生",
+        "colors": ["グリーン", "グリーン"],
+        "isGraduation": false
+      },
+      {
+        "name": "平尾 帆夏",
+        "generation": "4期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": false
+      },
+      {
+        "name": "藤嶌 果歩",
+        "generation": "4期生",
+        "colors": ["パープル", "パープル"],
+        "isGraduation": false
+      },
+      {
+        "name": "宮地 すみれ",
+        "generation": "4期生",
+        "colors": ["パープル", "パープル"],
+        "isGraduation": false
+      },
+      {
+        "name": "山下 葉留花",
+        "generation": "4期生",
+        "colors": ["グリーン", "グリーン"],
+        "isGraduation": false
+      },
+      {
+        "name": "渡辺 莉奈",
+        "generation": "4期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": false
+      },
+      {
+        "name": "柿崎 芽実",
+        "generation": "1期生",
+        "colors": ["サクラピンク", "サクラピンク"],
+        "isGraduation": true
+      },
+      {
+        "name": "井口 眞緒",
+        "generation": "1期生",
+        "colors": ["パールグリーン", "パールグリーン"],
+        "isGraduation": true
+      },
+      {
+        "name": "濱瀬 茉莉奈",
+        "generation": "2期生",
+        "colors": ["グリーン", "グリーン"],
+        "isGraduation": true
+      },
+      {
+        "name": "宮田 愛萌",
+        "generation": "2期生",
+        "colors": ["ピンク", "ピンク"],
+        "isGraduation": true
+      },
+      {
+        "name": "影山 優佳",
+        "generation": "1期生",
+        "colors": ["ピンク", "ピンク"],
+        "isGraduation": true
+      },
+      {
+        "name": "岸帆夏",
+        "generation": "4期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": true
+      },
+      {
+        "name": "潮紗理菜",
+        "generation": "1期生",
+        "colors": ["ブルー", "ブルー"],
+        "isGraduation": true
+      },
+      {
+        "name": "渡邉 美穂",
+        "generation": "2期生",
+        "colors": ["サクラピンク", "サクラピンク"],
+        "isGraduation": true
+      },
+      {
+        "name": "髙橋 未来花",
+        "generation": "3期生",
+        "colors": ["ピンク", "ピンク"],
+        "isGraduation": true
+      }
+    ]
+  }
