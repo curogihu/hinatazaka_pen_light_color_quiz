@@ -39,11 +39,10 @@ const QuizPage = () => {
         setIsCountingDown(difficulty === 'superhard');
       } else {
         // 最後の問題の場合も、色の変化を待ってから遷移
-        const timer = setTimeout(() => {
-          const timeTaken = formatTime(Date.now() - startTime);
+        const timeTaken = formatTime(Date.now() - startTime);
+        setTimeout(() => {
           navigate('/result', { state: { correctAnswers: questionIndex + 1, totalQuestions: questions.length, timeTaken } });
-        }, 3000); // 色の変化を待つ時間を設定（ここでは3秒）
-        return () => clearTimeout(timer); // タイマーをクリアして確実に待機する
+        }, 3000); // 3秒待機
       }
     };
   
@@ -55,7 +54,9 @@ const QuizPage = () => {
       setLife(life - 1);
       if (life - 1 === 0) {
         const timeTaken = formatTime(Date.now() - startTime);
-        navigate('/result', { state: { correctAnswers: questionIndex, totalQuestions: questions.length, timeTaken } });
+        setTimeout(() => {
+          navigate('/result', { state: { correctAnswers: questionIndex, totalQuestions: questions.length, timeTaken } });
+        }, 3000); // 3秒待機
         return;
       }
     }
@@ -71,7 +72,7 @@ const QuizPage = () => {
         return prevCountdown - 1;
       });
     }, 1000);
-  }, [life, questionIndex, questions, navigate, startTime, currentQuestion, difficulty]); // 必要な依存配列
+  }, [life, questionIndex, questions, navigate, startTime, currentQuestion, difficulty]);
 
   const initializeQuiz = useCallback(() => {
     setStartTime(Date.now());

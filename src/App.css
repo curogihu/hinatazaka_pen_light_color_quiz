@@ -12,7 +12,7 @@ body {
 /* タイトルのスタイル */
 h1 {
   text-align: center;
-  color: #007bb5; /* より濃い空色 */
+  color: #5BBEE4; /* より濃い空色 */
   margin-top: 20px;
 }
 
@@ -27,7 +27,7 @@ h1 {
 .quiz-options label {
   font-weight: bold;
   margin-bottom: 5px;
-  color: #007bb5;
+  color: #5BBEE4;
 }
 
 .quiz-options select,
@@ -35,7 +35,7 @@ h1 {
   width: 200px;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #007bb5;
+  border: 1px solid #5BBEE4;
   border-radius: 5px;
   background-color: #fff;
   color: #333;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .quiz-options button {
-  background-color: #007bb5;
+  background-color: #5BBEE4;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -69,7 +69,7 @@ h1 {
 }
 
 .result-container h1 {
-  color: #007bb5; /* タイトルの色を空色に合わせる */
+  color: #5BBEE4; /* タイトルの色を空色に合わせる */
 }
 
 .result-container p {
@@ -81,7 +81,7 @@ h1 {
 .result-container button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bb5;
+  background-color: #5BBEE4;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -101,7 +101,7 @@ h1 {
 }
 
 .quiz-container h1 {
-  color: #007bb5; /* タイトルの色を空色に合わせる */
+  color: #5BBEE4; /* タイトルの色を空色に合わせる */
 }
 
 .quiz-container .hearts {
@@ -126,7 +126,7 @@ h1 {
 .quiz-container button {
   margin: 5px;
   padding: 10px 20px;
-  background-color: #007bb5;
+  background-color: #5BBEE4;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -142,4 +142,34 @@ h1 {
 .quiz-container button[disabled] {
   cursor: not-allowed;
   opacity: 0.6;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.custom-button {
+  background-color: #00aaff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #008ecc;
 }

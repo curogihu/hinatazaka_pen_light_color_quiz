@@ -15,7 +15,7 @@ const TopPage = () => {
 
   return (
     <div>
-      <h1>日向坂46 ペンライトカラークイズ</h1>
+      <h1>日向坂46<br/>ペンライトカラークイズ</h1>
       <div className="quiz-options">
         <label>出題範囲</label>
         <select value={range} onChange={(e) => setRange(e.target.value)}>
