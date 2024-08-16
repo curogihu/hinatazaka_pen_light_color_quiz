@@ -77,7 +77,7 @@ const QuizPage = () => {
   const initializeQuiz = useCallback(() => {
     setStartTime(Date.now());
     setQuestionIndex(0);
-    setLife(difficulty === 'easy' ? 3 : difficulty === 'normal' || difficulty === 'hard' ? 2 : 1);
+    setLife(difficulty === 'easy' ? 5 : difficulty === 'normal' ? 3 : difficulty === 'hard' ? 2 : 1);
     setTimeLeft(5);
     setIsCountingDown(difficulty === 'superhard');
   

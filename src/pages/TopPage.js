@@ -1,50 +1,33 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const TopPage = () => {
+function TopPage() {
   const navigate = useNavigate();
-  const [range, setRange] = useState('all');
-  const [questionCount, setQuestionCount] = useState('5');
   const [difficulty, setDifficulty] = useState('easy');
 
   const handleStartQuiz = () => {
-    navigate('/quiz', {
-      state: { range, questionCount, difficulty },
-    });
+    navigate('/quiz', { state: { difficulty, range: 'all', questionCount: 'all' } });
   };
 
   return (
-    <div>
+    <div className="top-page">
       <h1>日向坂46<br/>ペンライトカラークイズ</h1>
-      <div className="quiz-options">
-        <label>出題範囲</label>
-        <select value={range} onChange={(e) => setRange(e.target.value)}>
-          <option value="all">オール</option>
-        </select>
 
-        <label>出題数</label>
-        <select
-          value={questionCount}
-          onChange={(e) => setQuestionCount(e.target.value)}
-        >
-          <option value="all">オール</option>
-        </select>
-
-        <label>難易度</label>
-        <select
-          value={difficulty}
-          onChange={(e) => setDifficulty(e.target.value)}
-        >
+      <div>
+        <label>難易度を選択:</label>
+        <select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
           <option value="easy">イージー</option>
           <option value="normal">ノーマル</option>
           <option value="hard">ハード</option>
           <option value="superhard">スーパーハード</option>
         </select>
+      </div>
 
-        <button onClick={handleStartQuiz}>スタート</button>
+      <div className="buttons-container">
+        <button className="custom-button" onClick={handleStartQuiz}>スタート</button>      
       </div>
     </div>
   );
-};
+}
 
 export default TopPage;
