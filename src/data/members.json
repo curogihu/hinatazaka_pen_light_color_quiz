@@ -125,60 +125,6 @@
         "generation": "4期生",
         "colors": ["ブルー", "ブルー"],
         "isGraduation": false
-      },
-      {
-        "name": "柿崎 芽実",
-        "generation": "1期生",
-        "colors": ["サクラピンク", "サクラピンク"],
-        "isGraduation": true
-      },
-      {
-        "name": "井口 眞緒",
-        "generation": "1期生",
-        "colors": ["パールグリーン", "パールグリーン"],
-        "isGraduation": true
-      },
-      {
-        "name": "濱瀬 茉莉奈",
-        "generation": "2期生",
-        "colors": ["グリーン", "グリーン"],
-        "isGraduation": true
-      },
-      {
-        "name": "宮田 愛萌",
-        "generation": "2期生",
-        "colors": ["ピンク", "ピンク"],
-        "isGraduation": true
-      },
-      {
-        "name": "影山 優佳",
-        "generation": "1期生",
-        "colors": ["ピンク", "ピンク"],
-        "isGraduation": true
-      },
-      {
-        "name": "岸帆夏",
-        "generation": "4期生",
-        "colors": ["ブルー", "ブルー"],
-        "isGraduation": true
-      },
-      {
-        "name": "潮紗理菜",
-        "generation": "1期生",
-        "colors": ["ブルー", "ブルー"],
-        "isGraduation": true
-      },
-      {
-        "name": "渡邉 美穂",
-        "generation": "2期生",
-        "colors": ["サクラピンク", "サクラピンク"],
-        "isGraduation": true
-      },
-      {
-        "name": "髙橋 未来花",
-        "generation": "3期生",
-        "colors": ["ピンク", "ピンク"],
-        "isGraduation": true
       }
     ]
   }

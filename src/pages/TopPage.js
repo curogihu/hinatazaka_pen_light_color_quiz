@@ -20,10 +20,6 @@ const TopPage = () => {
         <label>出題範囲</label>
         <select value={range} onChange={(e) => setRange(e.target.value)}>
           <option value="all">オール</option>
-          <option value="1st">1期生</option>
-          <option value="2nd">2期生</option>
-          <option value="3rd">3期生</option>
-          <option value="4th">4期生</option>
         </select>
 
         <label>出題数</label>
@@ -31,8 +27,6 @@ const TopPage = () => {
           value={questionCount}
           onChange={(e) => setQuestionCount(e.target.value)}
         >
-          <option value="5">5問</option>
-          <option value="10">10問</option>
           <option value="all">オール</option>
         </select>
 

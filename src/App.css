@@ -114,6 +114,15 @@ h1 {
   margin: 20px 0;
 }
 
+.quiz-container .quiz-options {  /* 変更箇所 */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  gap: 10px;
+  justify-content: center; /* 中央揃え */
+  max-width: 400px; /* 全体の幅を指定 */
+  margin: 0 auto; /* 水平方向の中央揃え */
+}
+
 .quiz-container button {
   margin: 5px;
   padding: 10px 20px;
@@ -128,4 +137,9 @@ h1 {
 
 .quiz-container button:hover {
   background-color: #005f99;
+}
+
+.quiz-container button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
 }
