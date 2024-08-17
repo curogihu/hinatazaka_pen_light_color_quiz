@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce6b643b7baae9f4427746af743708e4",
+    "revision": "0c9b88dff81cff9d4860c576d0122fe3",
     "url": "/hinatazaka_pen_light_color_quiz/index.html"
   },
   {
-    "revision": "8c24f3d9f5c2ac177fc3",
+    "revision": "45fd88e2380d82bc5a14",
     "url": "/hinatazaka_pen_light_color_quiz/static/css/main.20d84cda.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hinatazaka_pen_light_color_quiz/static/js/2.3ee70faa.chunk.js"
   },
   {
-    "revision": "8c24f3d9f5c2ac177fc3",
-    "url": "/hinatazaka_pen_light_color_quiz/static/js/main.68ce6343.chunk.js"
+    "revision": "45fd88e2380d82bc5a14",
+    "url": "/hinatazaka_pen_light_color_quiz/static/js/main.8a2a86bb.chunk.js"
   },
   {
     "revision": "8cbc87e26a5227544e80",
