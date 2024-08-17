@@ -19,7 +19,6 @@ function TopPage() {
           <option value="easy">イージー</option>
           <option value="normal">ノーマル</option>
           <option value="hard">ハード</option>
-          <option value="superhard">スーパーハード</option>
         </select>
       </div>
 
