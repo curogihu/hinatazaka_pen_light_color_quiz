@@ -10,13 +10,13 @@ import ResultPage from './pages/ResultPage';  // ResultPage のインポート
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+     <BrowserRouter basename="/hinatazaka_pen_light_color_quiz">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/top" element={<TopPage />} />
         <Route path="/quiz" element={<QuizPage />} />
         <Route path="/result" element={<ResultPage />} />  {/* 結果画面のルートを追加 */}
       </Routes>
-    </Router>
+      </BrowserRouter>
   </React.StrictMode>
 );
