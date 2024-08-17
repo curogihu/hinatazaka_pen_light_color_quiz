@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'; // BrowserRouter のインポートを追加
 import './index.css';
 import App from './App';
 import TopPage from './pages/TopPage';
