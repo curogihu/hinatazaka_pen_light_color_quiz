@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de0f8a6f4ce9b9e786c937221adb70a5",
+    "revision": "bafd96282de579d40d6b026b213fd15d",
     "url": "/hinatazaka_pen_light_color_quiz/index.html"
   },
   {

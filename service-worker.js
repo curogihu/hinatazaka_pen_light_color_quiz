@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hinatazaka_pen_light_color_quiz/precache-manifest.3df839c804a6e6d58f62140bd824ec56.js"
+  "/hinatazaka_pen_light_color_quiz/precache-manifest.d908d5f56564fbd6993497772c2568ec.js"
 );
 
 self.addEventListener('message', (event) => {
