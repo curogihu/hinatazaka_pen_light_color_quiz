@@ -3,127 +3,163 @@
       {
         "name": "加藤 史帆",
         "generation": "1期生",
-        "colors": ["レッド", "レッド"],
+        "colors": ["ブルー", "ブルー"],
         "isGraduation": false
       },
       {
         "name": "佐々木 久美",
         "generation": "1期生",
-        "colors": ["ブルー", "イエロー"],
+        "colors": ["パステルブルー", "パープル"],
         "isGraduation": false
       },
       {
         "name": "佐々木 美玲",
         "generation": "1期生",
-        "colors": ["オレンジ", "オレンジ"],
+        "colors": ["イエロー", "イエロー"],
         "isGraduation": false
       },
       {
         "name": "高瀬 愛奈",
         "generation": "1期生",
-        "colors": ["ピンク", "ピンク"],
+        "colors": ["ピンク", "ホワイト"],
         "isGraduation": false
       },
       {
         "name": "東村 芽依",
         "generation": "1期生",
-        "colors": ["ホワイト", "ホワイト"],
+        "colors": ["サクラピンク", "サクラピンク"],
         "isGraduation": false
       },
       {
         "name": "金村 美玖",
         "generation": "2期生",
-        "colors": ["ブルー", "ブルー"],
+        "colors": ["イエロー", "パステルブルー"],
         "isGraduation": false
       },
       {
         "name": "河田 陽菜",
         "generation": "2期生",
-        "colors": ["オレンジ", "オレンジ"],
+        "colors": ["サクラピンク", "イエロー"],
+        "isGraduation": false
+      },
+      {
+        "name": "小坂 菜緒",
+        "generation": "2期生",
+        "colors": ["バイオレット", "ホワイト"],
+        "isGraduation": false
+      },
+      {
+        "name": "富田 鈴花",
+        "generation": "2期生",
+        "colors": ["パープル", "パープル"],
         "isGraduation": false
       },
       {
         "name": "丹生 明里",
         "generation": "2期生",
-        "colors": ["イエロー", "イエロー"],
+        "colors": ["オレンジ", "オレンジ"],
         "isGraduation": false
       },
       {
         "name": "濱岸 ひより",
         "generation": "2期生",
-        "colors": ["オレンジ", "オレンジ"],
+        "colors": ["オレンジ", "ホワイト"],
+        "isGraduation": false
+      },
+      {
+        "name": "松田 好花",
+        "generation": "2期生",
+        "colors": ["サクラピンク", "パールグリーン"],
         "isGraduation": false
       },
       {
         "name": "上村 ひなの",
         "generation": "3期生",
-        "colors": ["ピンク", "ライトグリーン"],
+        "colors": ["レッド", "エメラルドグリーン"],
         "isGraduation": false
       },
       {
         "name": "髙橋 未来虹",
         "generation": "3期生",
-        "colors": ["ブルー", "ブルー"],
+        "colors": ["グリーン", "パープル"],
         "isGraduation": false
       },
       {
         "name": "森本 茉莉",
         "generation": "3期生",
-        "colors": ["ホワイト", "ホワイト"],
+        "colors": ["オレンジ", "ブルー"],
         "isGraduation": false
       },
       {
         "name": "山口 陽世",
         "generation": "3期生",
-        "colors": ["イエロー", "イエロー"],
+        "colors": ["パールグリーン", "イエロー"],
         "isGraduation": false
       },
       {
         "name": "石塚 瑶季",
         "generation": "4期生",
-        "colors": ["オレンジ", "オレンジ"],
+        "colors": ["サクラピンク", "オレンジ"],
         "isGraduation": false
       },
       {
         "name": "小西 夏菜実",
         "generation": "4期生",
-        "colors": ["パープル", "パープル"],
+        "colors": ["パープル", "ブルー"],
         "isGraduation": false
       },
       {
-        "name": "平岡 海月",
+        "name": "清水 理央",
         "generation": "4期生",
-        "colors": ["グリーン", "グリーン"],
+        "colors": ["パールグリーン", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "正源司 陽子",
+        "generation": "4期生",
+        "colors": ["オレンジ", "レッド"],
+        "isGraduation": false
+      },
+      {
+        "name": "竹内 希来里",
+        "generation": "4期生",
+        "colors": ["イエロー", "レッド"],
         "isGraduation": false
       },
       {
         "name": "平尾 帆夏",
         "generation": "4期生",
-        "colors": ["ブルー", "ブルー"],
+        "colors": ["パステルブルー", "オレンジ"],
+        "isGraduation": false
+      },
+      {
+        "name": "平岡 海月",
+        "generation": "4期生",
+        "colors": ["ブルー", "イエロー"],
         "isGraduation": false
       },
       {
         "name": "藤嶌 果歩",
         "generation": "4期生",
-        "colors": ["パープル", "パープル"],
+        "colors": ["サクラピンク", "ブルー"],
         "isGraduation": false
       },
       {
         "name": "宮地 すみれ",
         "generation": "4期生",
-        "colors": ["パープル", "パープル"],
+        "colors": ["バイオレット", "レッド"],
         "isGraduation": false
       },
       {
         "name": "山下 葉留花",
         "generation": "4期生",
-        "colors": ["グリーン", "グリーン"],
+        "colors": ["ホワイト", "エメラルドグリーン"],
         "isGraduation": false
       },
       {
         "name": "渡辺 莉奈",
         "generation": "4期生",
-        "colors": ["ブルー", "ブルー"],
+        "colors": ["パープル", "ピンク"],
         "isGraduation": false
       }
     ]
