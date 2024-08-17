@@ -10,7 +10,7 @@ import ResultPage from './pages/ResultPage';  // ResultPage のインポート
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename="/hinatazaka_pen_light_color_quiz">
+    <Router>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/top" element={<TopPage />} />
